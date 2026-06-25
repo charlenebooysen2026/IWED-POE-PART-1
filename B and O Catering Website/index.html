@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
-    <title>B & O Catering and Private Chef Services</title>
+    <title>B & O Catering | Private Chef & Event Services Johannesburg</title>
+    <meta name="description" content="B & O Catering offers premium private chef and event catering services in Johannesburg, specializing in elegant menus and personalized experiences.">
+    <meta name="keywords" content="catering, private chef, Johannesburg, event catering, food service, B & O Catering">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,6 +21,7 @@
     <section>
         <h2>Welcome to B & O Catering</h2>
         <p>Well presented delicious food,the best in catering</p>
+        <p id="currentDate" style="text-align:center; color:#ffd700; font-weight:bold;"></p>
     </section>
 
     <section>
@@ -38,4 +41,15 @@
    <footer>
     <p>&COPY; 2026 B & O Catering and Private Chef Services</p>
    </footer>
+   <script>
+    // Create a new Date object
+    const today= new Date();
+
+    // Format the date as a readable string
+    const formattedDate =today.toDateString();
+
+    // Display the date inside the paragraph element
+    document.getElementById("currentDate").innerHTML= 
+    "Today's date:"+ formattedDate;
+   </script>
 </body>

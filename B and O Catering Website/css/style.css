@@ -75,4 +75,51 @@ img {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+/* Responsive Design for Mobile (Portrait Mode) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+
+  header, footer {
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    color: #ffd700; /* gold links for mobile */
+  }
+
+  section {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-width: 1px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .two-column {
+    display: block; /* stack columns vertically */
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
 
